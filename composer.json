@@ -1,0 +1,36 @@
+{
+  "name": "php/mvc",
+  "description": "A boiler plate for php projects",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Code With JC",
+      "email": "codewithjc@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php",
+      "source/Boot/Minify.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "^7.1",
+    "phpmailer/phpmailer": "~6.0",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/uploader": "^1.0",
+    "coffeecode/cropper": "^1.0",
+    "coffeecode/paginator": "^1.0",
+    "coffeecode/router": "1.0.*",
+    "matthiasmullie/minify": "^1.3"
+  }
+}

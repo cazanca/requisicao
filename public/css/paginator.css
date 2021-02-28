@@ -1,0 +1,33 @@
+.paginator {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.paginator_item {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 4px 12px;
+  color: #454f63;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.paginator_item:hover {
+  border: 1px solid #5773ff;
+}
+
+.paginator_active,
+.paginator_active:hover {
+  background-color: #5773ff;
+  color: #fff;
+}
+
+pre {
+  margin-top: 30px;
+  background: #eeeeee;
+  padding: 10px;
+}
